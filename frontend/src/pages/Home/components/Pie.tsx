@@ -23,9 +23,9 @@ export default function PieChartDemo() {
                 {
                     data: [data.consumers, data.orders, data.sell],
                     backgroundColor: [
-                        documentStyle.getPropertyValue('--blue-500'),
-                        documentStyle.getPropertyValue('--yellow-500'),
-                        documentStyle.getPropertyValue('--green-500')
+                        documentStyle.getPropertyValue('--pink-500'),
+                        documentStyle.getPropertyValue('--indigo-500'),
+                        documentStyle.getPropertyValue('--teal-500')
                     ],
                     hoverBackgroundColor: [
                         documentStyle.getPropertyValue('--blue-400'),
